@@ -1,6 +1,7 @@
 # Php Newspaper Website
 This is a Core Php based Newspaper website.
-
+### Live Demo Link
+* [ Demo URL ](https://thenewssite.000webhostapp.com/)
 ### Project Setup
 * Download and install Git - [Official Download Link](https://git-scm.com/downloads)
 ```bash
