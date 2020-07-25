@@ -1,15 +1,29 @@
-## php-newspaper
+# Php Newspaper Website
 This is a Core Php based Newspaper website.
-#Installation
-You can download the download or use git clone https://github.com/abdulrehman25/php-newspaper.git to clone the repository
-and then place in your xampp-->htdocs folders as newspaper folder.
-Then get the database file from the directory named this project database file -->newspaper.sql
-Then import the database file in your phpmyadmin
-##Main Web Page
-localhost/newspaper
-##Admin Panel
-localhost/newspaper/admin
-#Credentials for admin Panel
-username: abdulrehman25
-password: 123456
 
+### Project Setup
+* Download and install Git - [Official Download Link](https://git-scm.com/downloads)
+```bash
+# Clone the Project
+git clone https://github.com/abdulrehman25/php-newspaper.git
+# Get project copied to your xampp directory htdocs
+xampp --> htdocs --> newspaper
+# Import database
+ phpmyadmin-->import 
+ select database file from "newspaper --> this project datbase file --> newspaper.sql"
+# 
+``` 
+## Main Web Page
+```bash
+# Url
+localhost/newspaper
+```
+## Admin Panel
+```bash
+# Url
+localhost/newspaper/admin
+# Credentials for admin Panel
+ Role: Super Admin
+ username: abdulrehman25
+ password: 123456
+```
