@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['subscribe'])){
-    $name = $_POST['name'];
-    $email = $_POST['email'];
+    $name = mysqli_real_escape_string($conn,$_POST['name']);
+    $email = mysqli_real_escape_string($conn,$_POST['email']);
     if(empty($name) || empty($email)){
         $error_message = '<span class="text-danger">All Fields Are Required</span>';
     }
